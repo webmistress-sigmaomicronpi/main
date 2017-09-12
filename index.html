@@ -2,35 +2,4 @@
 layout: page
 description: "The First Asian-Interest Sorority Est. 1930"
 ---
-
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-    </a>
-    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
-</div>
-<hr>
-{% endfor %}
-
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+<p>Sigma Omicron Pi is not just a sorority or an organization on campus. Besides an environment to achieve social and academic growth, it is, most importantly, a sisterhood. The meaning of sisterhood brings warmth, trust, and loyalty within us. As sisters, we become more than just friends. We are able to lean on each other during times of hardship and stress. Our bond of sisterhood grows stronger due to our willingness to sacrifice for each other. Through thick and thin, good times and bad, we are confronted with the thoughts of our lifelong companionship and trust. As a sister, you are never alone and will always have support from the sisters of SOPi. </p>
